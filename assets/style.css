@@ -33,6 +33,10 @@ footer.row {
  background-color: #DDBEA9 !important;
 }
 
+#footer-width{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 
 .bgimg{
@@ -49,7 +53,7 @@ footer.row {
     background-color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0, 0.4);
     color: rgb(255, 255, 255);
-    font-weight: ;
+    /* font-weight: ; */
     border: 1px solid rgb(224, 193, 154);
     position: absolute;
     top: 50%;
@@ -63,7 +67,6 @@ footer.row {
 
 .container.overlay {
 backdrop-filter: blur(3px);
--webkit-filter
 }
 
 h1{
@@ -75,11 +78,12 @@ h1{
 .grid-container{
     grid-template-columns: auto auto;
     display: grid;
-    gap: 10px;
+    gap: 40px 40px;
+    justify-content: center;
 }
 
 .grid-items {
-    border-radius: 40%;
+    /* border-radius: 40%; */
 }
 
 .col-lg-6.col-md-6.col-sm-6.col-xs-6.hero-text {
@@ -101,11 +105,11 @@ img.me {
 
 .d-block{
     object-fit: contain;
-    max-height: 400px;
+    max-height: 480px;
     max-width: auto;
-    /* margin:auto; */
+    margin:auto;
     border-radius: 10px;
-    box-shadow: 4px;
+    /* box-shadow: 4px; */
 }
 
 .d-block.p{
@@ -115,4 +119,4 @@ img.me {
 .col-md-8 {
     justify-content: center;
 }
-.container
+
