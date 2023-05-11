@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Quicksand&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
  body{
     background-color: #EFE5DC;
+    overflow-x: hidden;
     /* padding: 0 10px; */
     /* margin: 10px 0 0 0; */
 }
@@ -33,9 +42,17 @@ footer.row {
  background-color: #DDBEA9 !important;
 }
 
-#footer-width{
+.footer-width{
     width: 100%;
     overflow-x: hidden;
+}
+
+.footer a:hover{
+    color: blueviolet !important;
+}
+
+div.col-6 {
+    list-style: none !important;
 }
 
 
@@ -120,3 +137,62 @@ img.me {
     justify-content: center;
 }
 
+.img-hover-zoom {
+    height: 200px;
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform 1.8s ease-out;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+.carousel-caption p, h3 {
+    text-shadow: 5px 5px 8px black;
+    color: white;
+}
+
+.col-lg-4.Hobbies {
+    color: white;
+    position:relative;
+    text-align: center;
+}
+
+.Hobbies {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .wrapper {
+    
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+ @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  } */
+
+.img-
