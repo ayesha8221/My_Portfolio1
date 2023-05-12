@@ -207,7 +207,7 @@ img.me {
     text-shadow: 5px 5px 8px black;
     color: white;
 }
-/* 
+
 .img.hobbies.rounded-3 {
     position: relative;
     text-align: center;
@@ -215,7 +215,7 @@ img.me {
       
 }
 
-.text {
+/* .text {
     position: absolute;
   top: 50%;
   left: 50%;
